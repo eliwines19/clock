@@ -12,9 +12,9 @@ body {
 }
 
 .clock {
-    width: 30rem;
-    height: 30rem;
-    border: 20pt solid red;
+    width: 20rem;
+    height: 20rem;
+    border: 20pt solid #3946F5;
     border-radius: 50%;
     margin: 50px auto;
     position: relative;
@@ -30,13 +30,23 @@ body {
 
 .hand {
     width: 50%;
-    height: 5pt;
-    background: white;
+    height: 3pt;
     position: absolute;
     top: 50%;
     transform-origin: 100%;
     transform: rotate(90deg);
-    transition: all 0.05s;
     transition-timing-function: cubic-bezier(0, 1.72, 0.59, 0.98);
+}
+
+.sec-hand {
+    background: rgb(255, 255, 255);
+}
+
+.min-hand {
+    background: #99CCFA;
+}
+
+.hour-hand {
+    background: #3564F6;
 }
 
